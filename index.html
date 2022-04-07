@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Quotes Generator</title>
+
+  <!--customer css-->
+  <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+  
+
+<div class="container">
+  <div class="wrapper" id="quote-box">
+    <div class="text" id="text"></div>
+    <div class="border"></div>
+    <div class="text" id="author"></div>
+    <div class="buttons">
+      <div class="share">
+      <a href="http://" target="_blank"><button class="sci facebook">Facebook</button></a>
+      <a href="http://" target="_blank" id="tweet-quote"><button class="sci twitter">Twitter</button></a>
+      </div>
+      <a href="#"><button class="btn btn-primary" id="new-quote" onclick="generateQuote();">New Quote</button></a>
+    </div>
+    
+  </div>
+</div>
+
+
+  <!--customer script-->
+  <script src="script.js"></script>
+</body>
+</html>
